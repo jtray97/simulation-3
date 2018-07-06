@@ -6,7 +6,7 @@ import React from 'react'
 import Auth from '../components/Auth'
 import Dashboard from '../components/Dashboard'
 import Form from '../components/Form'
-import Nav from '../components/Nav'
+// import Nav from '../components/Nav'
 import Post from '../components/Post'
 
 //ROUTES AND STUFF:
