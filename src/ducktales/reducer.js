@@ -8,7 +8,7 @@ const initial_state = {
 
 
 
-export default function reducer(state, action){
+export default function reducer(state = initial_state, action){
     switch (action.type){
         default: return state;
     }

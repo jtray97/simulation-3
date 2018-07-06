@@ -29,8 +29,9 @@ app.use(session({
 app.post('/api/register',(req, res)=>{
     const db = req.app.get('db')
     let {username, password, avatar} = req.body
-    db.register_user([username,password,avatar]).then(response=>{res.send(response)
-        console.log(response)
+    db.register_user([username,password,avatar]).then(response=>{
+        res.send(response)
+        console.log(response.data, 'register app')
     })
 })
 app.post('/api/login', async (req, res)=>{
