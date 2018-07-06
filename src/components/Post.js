@@ -1,9 +1,7 @@
 import React, {Component} from 'react'
 
 class Post extends Component{
-    constructor(){
 
-    }
     render(){
         return(
 

@@ -7,10 +7,10 @@ import Nav from './components/Nav';
 import Dashboard from './components/Dashboard';
 import Form from './components/Form';
 import Post from './components/Post';
-
 //CSS imports
 import './App.css';
-
+//OTHER IMPORTS
+import routes from './routes/routes'
 
 
 class App extends Component {
@@ -21,11 +21,9 @@ class App extends Component {
 
 
 <div className="App">
-      <Auth/>
-      <Dashboard/>
-      <Form/>
+     {routes}
       <Nav/>
-      <Post/>
+      
       
 </div>
 
